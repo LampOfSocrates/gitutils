@@ -3,8 +3,7 @@ Keep these newrepo.bat and uploadrepo.bat in your windows\system32 folder ( sinc
 
 Usage:
 # Once in a while when you start a new repos
-newrepo gitutils LampOfSocrates
-
+newrepo newproject
 
 # Daily basis 
 uploadrepo mychanges

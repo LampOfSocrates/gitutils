@@ -1,0 +1,8 @@
+For permanent storage of ur password in the current folder
+git config credential.helper store
+
+For permanent storage of ur password in the %HOME% folder
+git config --global credential.helper store
+
+# To stop storing 
+git config --unset credential.helper
