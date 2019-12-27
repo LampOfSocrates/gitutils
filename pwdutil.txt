@@ -1,8 +1,23 @@
-For permanent storage of ur password in the current folder
+Login Caveats
+===============
+
+
+# WEAKEST For permanent storage of ur password in the current folder
 git config credential.helper store
 
-For permanent storage of ur password in the %HOME% folder
+# MEDIUM For permanent storage of ur password in the %HOME% folder
 git config --global credential.helper store
 
-# To stop storing 
+#STRONGEST To use a better encryption of this password store inside Windows 10 Credential Manager
+On Windows 10 , open "credential manager" from run command or Control Panel
+"Add a Generic Credential"
+Internet Address: git:https://github.com
+UserName : Yours
+Password : Yours
+
+#Connect Git to your Windows Credential
+git config --global credential.helper wincred
+
+
+#To stop storing 
 git config --unset credential.helper
