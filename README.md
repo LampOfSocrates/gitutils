@@ -13,6 +13,8 @@ newrepo newproject
 # Daily basis 
 uploadrepo "Comments for the upload"
 
+# Best Git reminder
+https://rogerdudler.github.io/git-guide/
 
 # TODO:
 
