@@ -1,5 +1,6 @@
 REM @echo off
 
+
 if [%1]==[] goto usage
 git add -A 
 git commit -m %1
