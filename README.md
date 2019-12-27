@@ -1,7 +1,9 @@
 
 # Install:
 git clone https://github.com/LampOfSocrates/gitutils.git gitutils
+
 Keep these newrepo.bat and uploadrepo.bat in your path
+
 set PATH=%PATH%;gitutils
 
 # Usage:
