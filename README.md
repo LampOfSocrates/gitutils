@@ -1,5 +1,10 @@
 
-# Install:
+# Installl Git 
+
+# Configure your git 
+
+
+# Install this lib:
 git clone https://github.com/LampOfSocrates/gitutils.git gitutils
 
 Keep these newrepo.bat and uploadrepo.bat in your path
