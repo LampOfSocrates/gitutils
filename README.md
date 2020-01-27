@@ -1,8 +1,12 @@
 
 # Installl Git 
 
+Go to https://gitforwindows.org/ for windows
+Follow instructions to set up
+
 # Configure your git 
-# test
+Run Git Bash and enter credidentials
+
 
 # Install this lib:
 git clone https://github.com/LampOfSocrates/gitutils.git gitutils
